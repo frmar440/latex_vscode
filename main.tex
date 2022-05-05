@@ -1,0 +1,31 @@
+%! Template author = fredericmarcotte
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{mypackages}
+
+% Document
+\begin{document}
+\input{title_page.tex}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+Citation test \cite{lalonde2017}.
+
+\begin{minted}{python}
+    print("Hello world!")
+\end{minted}
+
+% \newpage
+% \appendix
+% \section{<appendix title>}
+% \label{appendixA}
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography}
+
+\end{document}

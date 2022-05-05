@@ -1,0 +1,62 @@
+%! Template author = fredericmarcotte
+
+% Define variables (text in brackets)
+
+\newcommand{\coursetitle}{<course title>}
+\newcommand{\courseid}{<course id>}
+\newcommand{\session}{<session>}
+\newcommand{\program}{<program>}
+\newcommand{\studentname}{<student name>}
+\newcommand{\studentid}{<student id>}
+\newcommand{\titlename}{<title>}
+\newcommand{\subtitlename}{<subtitle>}
+\newcommand{\professorname}{<professor name>}
+\newcommand{\affiliationdep}{<affiliation department>}
+\newcommand{\duedate}{<date>}
+
+% Title page
+
+\begin{titlepage}
+
+  \begin{minipage}{.45\linewidth}
+    \begin{flushleft}
+      \includegraphics[scale=0.12]{./figures/ULaval} \\
+      \textsc{Faculté des Sciences et Génie} \\
+    \end{flushleft}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{.45\linewidth}
+    \begin{flushright}
+      \coursetitle \\
+      \courseid \\
+      \session \\
+      \program \\
+    \end{flushright}
+  \end{minipage}
+
+  \begin{center}
+    \vspace{30mm}
+    Réalisé par \\
+    \studentname\,(\studentid) \\
+    \vspace{35mm}
+    \line(1,0){400} \\
+    \vspace{2mm}
+    \textbf{\titlename} \\
+    \subtitlename \\
+    \line(1,0){250} \\
+    \vspace{35mm}
+    Travail présenté à \\
+    \professorname \\
+    \affiliationdep \\
+    \vspace{35mm}
+    \duedate
+  \end{center}
+
+\end{titlepage}
+
+% Heading
+
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{}
+\fancyfoot[C]{\thepage}
