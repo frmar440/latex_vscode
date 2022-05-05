@@ -36,6 +36,5 @@ Path to VS Code settings: `~/Library/Application\ Support/Code/User/settings.jso
             "env": {}
         }
     ],
-    "latex-workshop.latex.outDir": "%DIR%/out",
     "latex-workshop.view.pdf.viewer": "tab"
 ```
